@@ -9,8 +9,7 @@ horse.o: horse.h horse.cpp
 clean:
 	rm horseRace
 	rm *.o
-run: 
-	horseRace
-		./horseRace
+run: horseRace
+	./horseRace
 debug: horseRace
 	gdb horseRace
